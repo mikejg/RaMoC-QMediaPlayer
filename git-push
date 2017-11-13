@@ -1,0 +1,10 @@
+#!/bin/bash
+
+### Git Backup ###
+
+git add -A
+git commit -a -m "`date`"
+
+git push origin master
+
+
